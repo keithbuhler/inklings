@@ -1,6 +1,6 @@
 ---
 title: Splash
-layout: 
+layout: default
 permalink: 
 image: 
     header: 
