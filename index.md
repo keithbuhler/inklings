@@ -1,12 +1,9 @@
 ---
-title: Splash
-layout: default
-permalink: 
-image: 
-    header: 
+title: welcome
+layout: 
 ---
 
-### **WELCOME**
+### WELCOME
 
 The vision of the Inklings.info is to be the one-stop hub for free writings by the Inklings and free information about the Inklings.
 
