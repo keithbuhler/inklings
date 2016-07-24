@@ -1,32 +1,28 @@
 ---
 title: welcome
-layout: 
+layout: default
 ---
+
+<img src="{{ site.url }}/assets/inklings-banner.png">
 
 ### WELCOME
 
-The vision of the Inklings.info is to be the one-stop hub for free writings by the Inklings and free information about the Inklings.
+The vision of INKLINGS.INFO is to be the one-stop shop for free writings, links, and information about the major Inklings:  Lewis, Tolkein, Williams, and Barfield.
 
-Our mission is to gather exhaustive information about each major Inkling (Lewis, Tolkein, Williams, and Barfield) and link to their major works.
+    Our specific goals are:
+    - to list all the major and minor Inklings (and link to more information)
+    - for each major Inkling, to list **all** their works
+    - to list all the free e-books available online (and link to them)
+    - to link to all the books available for purchase
+    - to curate the **best** online Inklings resources
 
-Our specific goals are:
+    Future goals include: 
 
-- to list all the major and minor Inklings (and link to more information)
-- for each major Inkling, to list **all** their works
-- to list all the free e-books available online (and link to them)
-- to link to all the books available for purchase
-- to curate the **best** online Inklings resources
-
-Future goals include: 
-
-- to link to more information about **all** their major influences, such as George MacDonald, G. K. Chesterton, Dante, the Bible, etc.
-- to link to more information about those whom they majorly influenced (movies, mentees, books about them)
-
-Look around and enjoy. 
+    - to link to more information about **all** their major influences, such as George MacDonald, G. K. Chesterton, Dante, the Bible, etc.
+    - to link to more information about those whom they majorly influenced (movies, mentees, books about them)
 
 ### Table of Contents
 
-{ % include toc % }
 
 ### WHO ARE THE MAJOR INKLINGS?
 
