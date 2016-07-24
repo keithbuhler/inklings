@@ -82,7 +82,7 @@ defaults:
   -scope:
       path: "" # empty string for all files
       values:
-      layout: "default-buhler"
+      layout: "default"
   -
     scope:
       path: "posts"
@@ -97,10 +97,10 @@ defaults:
         layout: single
 
 scope:
-      path: ""
-      type: "presentations"
+      path: "slideshows"
+      type: "slideshows"
     values:
-      layout: "presentation"
+      layout: "slides"
 
 defaults:
   # _pages
