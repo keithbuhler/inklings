@@ -1,0 +1,111 @@
+# Site settings
+ locale:         "en"
+ title:          "keithbuhler.com"
+ name:           "Keith Buhler"
+ description:    "Information on the Inklings"
+ url:            "http://www.keithbuhler.com/inklings"
+ gh_repo:        "https://github.com/keithbuhler/inklings"
+ teaser           : "bio-photo.png"
+ words_per_minute : 200
+ email:          "keithedbuhler@gmail.com"
+ comments: 
+  provider:       "disqus"
+  disqus:         "keithbuhler"
+
+# Site Author
+author:
+  name             : "Keith Buh"
+  avatar           : "keithbuhler-bw-small.png" 
+  bio              : "Philosopher, educator, author, Duck-billed Platypus"
+  location         : "Wilmore, KY"
+  email            : "keithedbuhler@gmail.com"
+
+# Build settings
+markdown:       kramdown
+markdown_ext:   markdown,mkdown,mkdn,mkd,md
+encoding:       utf-8
+
+# SEO Related empty
+
+
+# Social networking links used in footer. Update and remove as you like.
+og_image:       aristotle50.bmp
+
+# Analytics for Google would go here UA-71712734-1
+
+# Gems
+
+gems: [jekyll-paginate]
+  -jekyll-sitemap
+  -jekyll-feed
+
+# For categories and tags
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Links to include in footer navigation
+
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: <i class="icon-book"></i> Documentation
+    url: /documentation
+  - title: Categories
+    url: /categories
+  - title: Tags
+    url: /tags
+
+# Outputting
+
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone:     America/New_York   
+
+
+collections:
+  papers:
+    output: true
+  teaching:
+    output: true
+  presentations:
+    output: true
+
+defaults:
+  -scope:
+      path: "" # empty string for all files
+      values:
+      layout: "default-buhler"
+  -
+    scope:
+      path: "posts"
+      type: ""
+      layout: "post" # overrides previous default layout
+      values:
+        read_time: false
+        comments: true
+        share: true
+        related: true  
+        author_profile: true
+        layout: single
+
+scope:
+      path: ""
+      type: "presentations"
+    values:
+      layout: "presentation"
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
