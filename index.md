@@ -56,6 +56,8 @@ Lewis
 
 - [Spirits in Bondage (poetry)](http://www.anglicanlibrary.org/lewis/spirits/)
 - [Canadian Public Domain books](http://www.gutenberg.ca/) (do not download in U.S. -- check your local laws!)
+- [Perelandra](http://novelhot.net/perelandra/-chapter-five-136410.html)
+
 Tolkien
 
 Williams
