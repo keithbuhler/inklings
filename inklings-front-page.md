@@ -1,7 +1,7 @@
 ---
 title: Splash
 layout: default
-permalink: 
+permalink: /index.html/
 image: 
     header: 
 ---
